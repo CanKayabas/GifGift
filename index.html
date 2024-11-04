@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>GifGift</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="mockup">
+            <div class="top">
+                <img class="logo" style="width: 65px;height:45px;"
+                    src="https://seeklogo.com/images/G/gg-group-gebauer-griller-logo-350BF800FA-seeklogo.com.png" />
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li class="store">Contact</li>
+                    <li class="more"><i class="material-icons">keyboard_arrow_down</i></li>
+                </ul>
+                <div class="user_control">
+                    <img id="profile_img"
+                        src="https://randomuser.me/api/portraits/men/62.jpg" />
+                    <div id="notifications">
+                        <i class="material-icons">notifications</i>
+                    </div>
+                    <div id="new">New Gif</div>
+                </div>
+            </div>
+            <div class="outer-search">
+                <div class="search-filter">
+                    <div class="search-container">
+                        <input type="text" id="search" placeholder="Search" />
+                        <i class="material-icons search-icon">search</i>
+                    </div>
+                    <div class="filter">
+                        <div class="pill active">For Me</div>
+                        <div class="pill">Trends</div>
+                        <div class="pill">Smile</div>
+                        <div class="pill">Angry</div>
+                        <div class="pill">Ashamed</div>
+                        <div class="pill">Surprised</div>
+                        <i class="material-icons">keyboard_arrow_right</i>
+                    </div>
+                </div>
+            </div>
+            <div class="feeds" id="feeds">
+                <div class="board s-1">
+                    <h1>Board</h1>
+                    <div class="card top-challenge">
+                        <div class="overlay">
+                            <span class="title-card">Gif Pool</span>
+                            <p class="card-body">Creating new gifs or editing gifs you have created...</p>
+                            <i class="material-icons forwards">arrow_forward</i>
+                        </div>
+                    </div>
+                    <div class="card list-challenge">
+                        <span class="title-card">My Friends</span>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Asım Ümit</h5>
+                                <span class="challengers">eight gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Mithat Cumhur</h5>
+                                <span class="challengers">eleven gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Nuri Elmas</h5>
+                                <span class="challengers">three gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Ziyaettin Alparslan</h5>
+                                <span class="challengers">three gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Derin Süreyya</h5>
+                                <span class="challengers">three gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Çetin Reşat</h5>
+                                <span class="challengers">three gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Şehrazat Cengiz</h5>
+                                <span class="challengers">three gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Dilan Yağmur</h5>
+                                <span class="challengers">three gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Arif Zeki</h5>
+                                <span class="challengers">three gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="challenge-element">
+                            <i class="material-icons">access_time</i>
+                            <div class="challenge-info">
+                                <h5>Melis Nebile</h5>
+                                <span class="challengers">three gif submissions</span>
+                            </div>
+                            <div class="vote">Vote</div>
+                        </div>
+                        <div class="viewall">View All</div>
+                    </div>
+                </div>
+                <div class="today s-2">
+                    <h1>For Me Gifs</h1>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img
+                            src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG1zYWlsMmx1YjFxaHp1bGYyajBjbWxpNDRkZDA2YXdyenllaXJ6YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/u5BzptR1OTZ04/giphy.gif" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>To watch TV</h4>
+                                <span class="card-maker"></span>
+                            </div>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">126</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img
+                            src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG1zYWlsMmx1YjFxaHp1bGYyajBjbWxpNDRkZDA2YXdyenllaXJ6YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H2u46cKU3VaXht6Iv9/giphy.gif" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>Get excited</h4>
+                            </div>
+                            <span class="costs"></span>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">199</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img id="porco"
+                            src="https://media.giphy.com/media/4pMX5rJ4PYAEM/giphy.gif?cid=790b7611tmsail2lub1qhzulf2j0cmli44dd06awrzyeirza&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>WTF?!</h4>
+                            </div>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">56</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="yesterday s-2">
+                    <h1>Trends</h1>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img
+                            src="https://media.giphy.com/media/QIPEV0HWAiXVm/giphy.gif?cid=ecf05e47hyrstv1h7zjtalm14qcq3vu867njj3e6qpcfggtp&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>Ups.!</h4>
+                            </div>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">194</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img
+                            src="https://media.giphy.com/media/108M7gCS1JSoO4/giphy.gif?cid=ecf05e47hyrstv1h7zjtalm14qcq3vu867njj3e6qpcfggtp&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>
+                                    <3< /h4>
+                            </div>
+                            <span class="costs"></span>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">37</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img
+                            src="https://media.giphy.com/media/f31DK1KpGsyMU/giphy.gif?cid=ecf05e47hyrstv1h7zjtalm14qcq3vu867njj3e6qpcfggtp&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>AAAAAAA!</h4>
+                            </div>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">25</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img
+                            src="https://media.giphy.com/media/SKGo6OYe24EBG/giphy.gif?cid=ecf05e472lwbwp0jx6ufyobe5k5wo49drz5f6bf2oed0dj42&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>La La La Laaa!</h4>
+                            </div>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">24</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img
+                            src="https://media.giphy.com/media/lKXEBR8m1jWso/giphy.gif?cid=ecf05e47nkmhmwt03m4ha9qd007h3q8pbbeailtf01515jmj&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>Hmmmm...</h4>
+                            </div>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">19</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="add"><i class="material-icons">add</i></div>
+                        <img
+                            src="https://media.giphy.com/media/aTf4PONtSYB1e/giphy.gif?cid=ecf05e47nkmhmwt03m4ha9qd007h3q8pbbeailtf01515jmj&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <h4>Böö!</h4>
+                            </div>
+                            <div class="card-vote">
+                                <i class="material-icons up">arrow_drop_up</i>
+                                <span class="upvotes">16</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.0.1/color-thief.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
